@@ -15,14 +15,22 @@ public class Main {
 		
 		System.out.printf("Sexo: ");
 		bill.gender = sc.next().charAt(0);
-		System.out.println("Quantidade de cervejas");
+		System.out.printf("Quantidade de cervejas: ");
 		bill.beer = sc.nextInt();
-		System.out.println("Quantidade de regfrigerante");
+		System.out.printf("Quantidade de regfrigerante: ");
 		bill.softDrink = sc.nextInt();
 		
-		System.out.println("Quantidade de espetinhos");
-		bill.barbecue = sc.nextInt();		
-
+		System.out.printf("Quantidade de espetinhos: ");
+		bill.barbecue = sc.nextInt();
+		
+		System.out.println();
+		 
+		
+	
+		
+		System.out.println(bill);
+		
+		
 	}
 
 }
